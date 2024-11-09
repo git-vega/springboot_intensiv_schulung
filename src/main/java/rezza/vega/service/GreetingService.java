@@ -8,6 +8,6 @@ Die GreetingService Klasse ist ein einfacher Service, der eine Begrüßungsnachr
 @Service
 public class GreetingService {
     public String greet() {
-        return "Hola Miguel!";
+        return "Hola Miguelito!";
     }
 }

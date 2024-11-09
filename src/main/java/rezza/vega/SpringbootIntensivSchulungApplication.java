@@ -10,7 +10,6 @@ Die Klasse SpringbootIntensivSchulungApplication ist eine Hauptklasse der Spring
 Die @SpringBootApplication Annotation markiert die Klasse als Startpunkt.
 Statt den normalen SpringApplication.run() zu verwenden, wird hier der Spring-Kontext manuell mit AnnotationConfigApplicationContext erstellt. Dies erlaubt die manuelle Verwaltung und eine genauere Kontrolle darüber, welche Pakete gescannt werden.
 Anschließend wird der GreetingController als Bean aus dem Kontext abgerufen und die Methode sayHello() wird aufgerufen, die die Begrüßung ausgibt.
-
  */
 
 @SpringBootApplication
